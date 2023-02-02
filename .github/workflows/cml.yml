@@ -17,8 +17,4 @@ jobs:
           
           echo "## Model Metrics" >> report.md
           cat metrics.txt >> report.md
-          # Write your CML report
-          echo "## Model Visualization" >> report.md 
-          cml-publish cm.png --md >> report.md
-          cml-publish roc.png --md >> report.md
-          cml-send-comment report.md
+         
